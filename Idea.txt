@@ -1,0 +1,118 @@
+idea: https://www.reddit.com/r/gameideas/comments/zhuabw/the_thing_goes_wrong/
+
+--- PERMISE ---
+You are a shapeshifting monster that snuck inside a military base.
+
+The twist is that you are completely harmless, in spite of the fact that everyone 
+is convinced that you are able to "infect" and "replace" people.
+
+The goal is to exploit this irrational fear and make soldiers turn on one another, 
+eventually eliminating each other.
+
+--- CORE ---
+* Top-down 2d view.
+* Encourages strategic thinking: 
+*   * Enemies are impossible / inefficient / undesirable to fight directly
+      (player dies fast, enemies deal a lot of damage and have ways to identifying player).
+*   * Player always knows what AI will do (AI is perdictable and communicates 
+      it's intentions).
+* Stimulates playing on:
+*   * Plan-B mechanics to continue after making a mistake:
+*   *   * Dash away when spotted.
+*   *   * ...
+*   * Prevent cases when player runs out of options to win:
+*   *   * Pervent running out of ways to kill enemies.
+*   *   * Pervent being cornered with no ways to escape.
+*   *   * ...
+* Makes humour:
+*   * References:
+*   *   * References to "The Thing" (obviously).
+*   *   * References to H. P. Lovecraft's works.
+*   *   * References to "Among Us"???
+*   *   * ...
+*   * Twists common horror tropes:
+*   *   * Flamethrowers are ineffective.
+*   *   * ...
+
+--- MECHANICS ---
+* GamePlay:
+*   * The goal is killing all enemies on the level.
+*   * Killing enemies:
+*   *   * Two most common ways of killing enemies is either causing an infighting
+          or killing them through context actions.
+*   *   * Causing infighting is the main mechanic of the game and other mechanics
+          MUST NOT compete with it.
+*   *   * Infighting:
+*   *   *   * TODO! This requires a broad spectrum of ways to cause an infighting.
+*   *   * Context Actions:
+*   *   *   * ...
+*   *   * Special cases when friendly-fire is allowed:
+*   *   *   * Explosives.
+*   *   *   * Certain kinds of enemies have friendly fire ON by default.
+*   *   *   * Random mistakes, that can be made by enemies.
+*   *   *   * ...
+* Enemies:
+*   * A rather primitive AI satate-machine that focuses on routine behaviour 
+      until disturbed.
+*   * Several unique kinds of enemies, which showcase / enhance certain mechanics.
+*   * Fight:
+*   *   * Enemies deal quite a lot of damage, but also die pretty fast.
+*   *   * Friendly fire is disabled unless speicifically desired by an enemy.
+*   *   * Some actions have a small chance to be failed, which may result in 
+          various penalties for the enemies.
+*   * Stress system:
+*   *   * Enemies have a level of stress, that grows whenever they see shocking,
+          scary, unexpected stuff.
+*   *   * High stress level makes tricking enemy harder, but also makes 
+          manipulating them easier.
+*   *   * Behaviour changes when stress is high:
+*   *   *   * Stressed enemies are more cautious.
+*   *   *   * Stressed enemies are more aggressive.
+*   *   *   * Stressed enemies are more likely to make a mistake.
+*   *   *   * Stressed enemies may abandom their routines.
+*   *   *   * ...
+*   * Familiarity system:
+*   *   * Enemies have a field of view, and whenever something enters it, they
+          take some time to build familiarity with it.
+*   *   * Familiarity system only works on things enemy considers normal and
+          usual (mostly / only people).
+*   *   * Stages of familiarity:
+*   *   *   * Recognition:
+*   *   *   *   * Takes a relatively small amount of time (0.5 - 1 second).
+*   *   *   *   * The enemy identifies the thing that entered his field of view 
+                  and can immediately take action if this thing is something
+                  special / dangerous / etc.
+*   *   *   * Familiarity:
+*   *   *   *   * If enemy sees certain object / person for a significant time
+                  (may require a bit of time depending on the pacing) and 
+                  does not recognize this object as anything special, he 
+                  builds a familiarity with it.
+*   *   *   *   * Enemies tend to trust the people they are familiar with a
+                  lot more.
+*   *   *   *   * Enemies tend to trust the people they are familiar with more.
+*   *   *   *   * ...
+* Movement:
+*   * The player has a below average movement speed, but can use certain tricks 
+      to gain a rather significant, but temporary / limited speed advantage.
+*   * Dash:
+*   *   * The player has an ability to dash with a reasonably short cooldown.
+*   *   * The dash is only avaliable in monster (native) form.
+*   *   * Dash use cases:
+*   *   *   * Quicker movement.
+*   *   *   * Escaping enemies when spotted.
+*   *   *   * Quickly engaigng with a certain target.
+*   *   *   * Breaking certain objects.
+*   *   *   * ...
+*   * Ventilation:
+*   *   * The player can get inside the airing system to quickly travel
+          between air vents (SUS!).
+* Shapeshifting:
+*   * The player is a shapeshifting monster, which can change it's appearance.
+*   * Shapeshifting allows player to avoid being noticed and allows a whole
+      range of special actions, so it must have a set of penalties, that
+      would encourage player to use it wisely.
+*   * Shapeshifting has quite a significant cooldown.
+*   * Transforming into enemies:
+*   *   * Player can transform into enemies, which allows him to infiltrate
+          into enemies' ranks and gives him new ways of causing infighting.
+*   *   * ...
